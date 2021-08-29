@@ -22,7 +22,7 @@ public class SQLAPI {
     public SQLAPI() {
         instance = this;
         this.statsManager = new Manager();
-        connectToMySQL("localhost", "mrnqck", "Baguette1337", "bot", 3306);
+        connectToMySQL("HOST", "DATABASE", "PASSWORD", "TABLE", port );
     }
 
     private void connectToMySQL(String host, String user, String password, String database, int port) {
