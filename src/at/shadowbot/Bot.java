@@ -59,7 +59,7 @@ public class Bot {
     }
 
     private static void login() throws LoginException {
-        String token = "Nzg2OTEyMzA0OTQ4MDUxOTg5.X9NTMQ._Nw3I1OwNHYGIO716rm1PVormyU";
+        String token = " Paste Token Here ";
         JDABuilder builder = JDABuilder.createDefault(token);
         builder.enableIntents(GatewayIntent.getIntents(GatewayIntent.ALL_INTENTS));
         builder.setActivity(Activity.listening("\"Help "));
